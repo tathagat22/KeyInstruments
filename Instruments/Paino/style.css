@@ -1,0 +1,331 @@
+@font-face {
+    font-family: 'davinci';
+    src:  url('../../font/Davinci.otf');
+}
+.bgblue
+{
+    background-color: rgb(6, 6, 26);
+}
+.navbar-brand
+{
+    font-size: 30px;
+    margin-left: 11%;
+    font-family: 'davinci',sans-serif;
+}
+
+.navbar-nav  
+{
+    margin-right: 10%;
+}
+.head
+{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+body{
+    /* background-repeat: no-repeat; */
+    background-color: #13B4CA;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#keys{
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    width: 100%;
+    height: 55%;
+    z-index: -1;
+}
+.white{
+    background-color: #ffffff;
+    height: 95%;
+    width: 5%;
+    border-radius: 20px;
+    position: absolute;
+    color: #000000;
+}
+.black{
+    background-color: #000000;
+    position: absolute;
+    height: 60%;
+    width: 4%;
+    border-radius: 20px;
+    z-index: 3;
+    color: #ffffff;
+}
+.keymaps{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    font-size: xx-large;
+}
+#displaytable{
+    z-index: 4 !important;
+    width: 300px;
+}
+#a_c{
+    left: 7%;
+}
+#w_cc{
+    left: 10%;
+}
+#s_d{
+    left: 12.2%;
+}
+#e_dd{
+    left: 15.3%;
+}
+#d_e{
+    left: 17.4%;
+}
+#f_f{
+    left: 22.6%;
+}
+#t_ff{
+    left: 25.5%;
+}
+#g_g{
+    left: 27.8%;
+}
+#y_gg{
+    left: 31%;
+}
+#h_a{
+    left: 33%;
+}
+#u_aa{
+    left: 36.1%;
+}
+#j_b{
+    left: 38.2%;
+}
+#k_c{
+    left: 43.4%;
+}
+#o_cc{
+    left: 46.5%;
+}
+
+#l_d{
+    left: 48.6%;
+}
+#p_dd{
+    left: 51.6%;
+}
+#_e{
+    left: 53.8%;
+}
+.hover:hover{
+    cursor: pointer;
+}
+.animate_white{
+    animation: animation_1 0.1s;
+}
+@keyframes animation_1{
+    0% {
+        background-color: #ffffff;
+    }
+    50% {
+        background-color: #6f6f6f;
+    }
+    100% {
+        background-color: #ffffff;
+    }
+}
+.animate_black{
+    animation: animation_2 0.1s;
+}
+@keyframes animation_2{
+    0% {
+        background-color: #000000;
+    }
+    50% {
+        background-color: #505050;
+    }
+    100% {
+        background-color: #000000;
+    }
+}
+@media only screen 
+   and (max-width : 1024px) {
+   /* Styles here */
+   #displaytable{
+    z-index: 4 !important;
+}
+   #keys{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    max-width: 100%;
+    height: 55%;
+}
+.white{
+    background-color: #ffffff;
+    height: 55%;
+    width: 7%;
+    border-radius: 13px;
+    position: absolute;
+    color: #000000;
+}
+.black{
+    background-color: #000000;
+    position: absolute;
+    height: 27%;
+    width: 5%;
+    border-radius: 13px;
+    z-index: 3;
+    color: #ffffff;
+}
+.keymaps{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    font-size: large;
+}
+#a_c{
+    left: -10%;
+}
+#w_cc{
+    left: -5%;
+}
+#s_d{
+    left: -2.5%;
+}
+#e_dd{
+    left: 1.8%;
+}
+#d_e{
+    left: 4.9%;
+}
+#f_f{
+    left: 12.6%;
+}
+#t_ff{
+    left: 17%;
+}
+#g_g{
+    left: 20%;
+}
+#y_gg{
+    left: 24.4%;
+}
+#h_a{
+    left: 27.5%;
+}
+#u_aa{
+    left: 31.9%;
+}
+#j_b{
+    left: 35%;
+}
+#k_c{
+    left: 42.5%;
+}
+#o_cc{
+    left: 47%;
+}
+
+#l_d{
+    left: 49.9%;
+}
+#p_dd{
+    left: 54.6%;
+}
+#_e{
+    left: 57.3%;
+}
+}
+@media only screen 
+   and (max-width : 414px) {
+   /* Styles here */
+   #displaytable{
+    z-index: 4 !important;
+}
+   #keys{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    max-width: 100%;
+    height: 55%;
+}
+.white{
+    background-color: #ffffff;
+    height: 45%;
+    width: 7%;
+    border-radius: 13px;
+    position: absolute;
+    color: #000000;
+}
+.black{
+    background-color: #000000;
+    position: absolute;
+    height: 22%;
+    width: 6%;
+    border-radius: 13px;
+    z-index: 3;
+    color: #ffffff;
+}
+.keymaps{
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    font-size: large;
+}
+#a_c{
+    left: -20%;
+}
+#w_cc{
+    left: -16%;
+}
+#s_d{
+    left: -12.5%;
+}
+#e_dd{
+    left: -8.5%;
+}
+#d_e{
+    left: -5.2%;
+}
+#f_f{
+    left: 3%;
+}
+#t_ff{
+    left: 7%;
+}
+#g_g{
+    left: 10.5%;
+}
+#y_gg{
+    left: 14.5%;
+}
+#h_a{
+    left:18%;
+}
+#u_aa{
+    left: 21.7%;
+}
+#j_b{
+    left: 25.5%;
+}
+#k_c{
+    left: 33.7%;
+}
+#o_cc{
+    left: 38%;
+}
+
+#l_d{
+    left: 41.3%;
+}
+#p_dd{
+    left: 45.5%;
+}
+#_e{
+    left: 48.8%;
+}
+}

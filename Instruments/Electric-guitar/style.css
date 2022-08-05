@@ -1,0 +1,80 @@
+body {
+  /* background-repeat: no-repeat; */
+  background-color: #13b4ca;
+
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+#navbar {
+  display: flex;
+}
+.svg-area {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vw;
+  overflow: auto;
+}
+:-webkit-full-screen {
+  background-color: #13b4ca;
+}
+
+/* IE11 */
+:-ms-fullscreen {
+  background-color: #13b4ca;
+}
+
+/* Standard syntax */
+:fullscreen {
+  background-color: #13b4ca;
+}
+#mob-fullscreen,
+#mob-exit {
+  margin-top: 10vw;
+  margin-left: 10vw;
+  display: none;
+}
+#e-string:hover {
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-name: wiggle;
+}
+#E-string:hover{
+  animation-duration: 500ms;
+  animation-iteration-count: 1;
+  animation-name: wiggle;
+}
+@keyframes wiggle {
+  2%{
+    transform: translateX(4px);
+  }
+  6%{
+    transform: translateY(4px);
+  }
+  10%{
+    transform: translateY(4px);
+  }
+  14%{
+    transform: translateX(4px);
+  }
+  18%{
+    transform: translateX(6px);
+  }
+  22%{
+    transform: translateY(6px);
+  }
+  26%{
+    transform: translateY(6px);
+  }
+  30%{
+    transform: translateX(6px);
+  }
+  34%{
+    transform: translateY(4px);
+  }
+}
+@media only screen and (max-width: 414px) {
+  #mob-fullscreen {
+    display: block;
+  }
+}

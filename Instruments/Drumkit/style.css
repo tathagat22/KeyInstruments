@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'davinci';
+    src:  url('../../font/Davinci.otf');
+  }
+svg {
+	height: 90vh;
+	width: 90vw;
+	display: block;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+* {
+	margin: 0;
+	padding: 0;
+
+}
+.svg-area {
+	background-color: #13B4CA;
+}
+#title {
+	font-family: davinci, sans-serif;
+	font-size: 2rem;
+}
